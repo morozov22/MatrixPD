@@ -181,8 +181,3 @@ The `utilities_msp.py` library contains several functions designed to work with 
 
 These functions are provided in order to enable subsequent processing and plotting of the output data.
 
-
-
-```python
-
-```
