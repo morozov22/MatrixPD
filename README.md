@@ -68,8 +68,8 @@ of timesteps in the CT algorithm. Each timestep advances the CT simulation by $\
 `-delta_t=dt_val` option (the default is $\delta t = 0.005$).
 
 The `-Npop=N_val` option sets the total number of individuals in the population. In the CT algorithm,
-the `-Nu=Nu_val` option sets the initial number of genotypes (novel genotypes can be created
-only through mutations). Note that $N_u \le N_\text{pop}$; the defauilt is $N_u = N_\text{pop}$.
+the `-Nu=Nu_val` option sets the maximum initial number of genotypes (novel genotypes can be created
+only through mutations). Note that $N_u \le N_\text{pop}$; the default is $N_u = N_\text{pop}$.
 
 In the WF algorithm, the array-type options are `-mu_rate`, `-sigma`, `-A_PD` and `-r_PD` (the mutation rate $\mu$, the truncated Gaussian scale parameter $\sigma$, the PD scale factor $A$ and the PD strength
 parameter $r$, respectively). In the CT algorithm, the array-type options are `-mu_rate`, `-sigma`, `-r_PD`
