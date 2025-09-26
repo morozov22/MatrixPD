@@ -147,7 +147,7 @@ Since the `-sdata` option was set to $1$, the code has produced several output f
 | Fs_var    | $\text{Var} (F^s)$ |
 | Fa_var    | $\text{Var} (F^a)$ |
 | Fsa_cov    | $\text{Cov} (F^s, F^a)$ |
-| Nspecies    | number of genotypes with frequencies $>\!1/N_\text{pop}$|
+| Nspecies    | number of genotypes with frequencies $> 1/N_\text{pop}$|
 
 
 The `examples/` folder contains the total of four representative runs, two CT and two WF.
